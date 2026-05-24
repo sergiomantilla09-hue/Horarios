@@ -1,0 +1,20 @@
+Asistente de horarios - instalar en iPhone
+
+Archivos que deben ir juntos en la misma carpeta web:
+- asistente-horarios.html
+- manifest.webmanifest
+- service-worker.js
+- icon-180.png
+- icon-192.png
+- icon-512.png
+
+Para instalarla en iPhone:
+1. Abre la pagina en Safari desde una direccion web.
+2. Toca el boton Compartir.
+3. Toca "Agregar a pantalla de inicio".
+4. Confirma el nombre "Horarios".
+
+Importante:
+- Desde un archivo local file:// no se instala como app completa.
+- Para modo app y uso sin conexion, debe abrirse desde una web segura, normalmente https://.
+- El microfono y la voz dependen de los permisos y del soporte de Safari/iOS.
